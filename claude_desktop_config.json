@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bambuddy": {
+      "command": "(path)\\python.exe",
+      "args": ["-m", "mcp_server.server"],
+      "env": {
+        "BAMBUDDY_URL": "http://localhost:8000",
+        "PYTHONPATH": "(install_path)"
+      }
+    }
+  }
+}

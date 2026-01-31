@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bambuddy": {
+      "command": "python",
+      "args": ["-m", "bambuddy_mcpserver.server"],
+      "env": {
+        "BAMBU_CONNECT_URL": "http://localhost:8080",
+        "BAMBU_CONNECT_TOKEN": "your_access_token_here"
+      }
+    }
+  }
+}
